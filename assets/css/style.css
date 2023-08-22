@@ -1744,7 +1744,7 @@ hr {
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: var(--secondary-color);
+  background: #fecd23;
 }
 
 .swiper-pagination-bullet::before {
@@ -4841,6 +4841,7 @@ input[type="number"]::-webkit-outer-spin-button {
   background: var(--white-color);
   -webkit-transition: var(--transition);
   transition: var(--transition);
+  height: 400px;
 }
 
 .services__card::after {
@@ -7937,6 +7938,7 @@ span.info__list--item-content {
   position: relative;
   padding-left: 1.7rem;
   margin-bottom: 0.5rem;
+ 
 }
 
 .about__content--desc__list:last-child {
@@ -7948,7 +7950,8 @@ span.info__list--item-content {
   content: "";
   width: 7px;
   height: 7px;
-  background: var(--secondary-color);
+  background: #fecd23;
+  border: .5px solid black;
   top: 8px;
   left: 0;
   border-radius: 50%;
